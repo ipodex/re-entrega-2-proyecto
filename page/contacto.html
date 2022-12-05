@@ -44,33 +44,52 @@
             >
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../index.html"
                     >inicio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Arma tu pc</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Arma tu pc</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Arma tu Combo</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Arma tu Combo</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Notebooks</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Notebooks</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Computadoras</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Computadoras</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Componentes</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Componentes</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Perifericos</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Perifericos</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Consolas</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Consolas</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Conectividad</a>
+                  <a class="nav-link" href="./productos.html" target="_blank"
+                    >Conectividad</a
+                  >
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -84,10 +103,7 @@
                   Search
                 </button>
                 <button class="btn btn-outline-success">
-                  <a
-                    class="nav-link"
-                    href="../page/contacto.html"
-                    target="_blank"
+                  <a class="nav-link" href="./contacto.html" target="_blank"
                     >Contacto</a
                   >
                 </button>
@@ -97,89 +113,90 @@
         </nav>
       </header>
       <article>
-        <div class="contenedor2">
-          <div class="contenedor3">
-            <img
-              src="../multimedia/maps.jpg"
-              width="500px"
-              height="500px"
-              halt="maps"
-            />
+        <section>
+          <div class="rellenocontacto">
+            <div class="imgmapscontacto">
+              <img
+                src="../multimedia/maps.jpg"
+                width="500px"
+                height="500px"
+                halt="maps"
+              />
+            </div>
+
+            <form action="formulario">
+              <legend>Contactate con nosotros</legend>
+              <div class="contenedor2">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Tomas" required />
+              </div>
+
+              <div class="contenedor2">
+                <label for="surname">apellido</label>
+                <input
+                  type="text"
+                  name="surname"
+                  placeholder="Oderiz"
+                  required
+                />
+              </div>
+
+              <div class="contenedor2">
+                <label for="mail">Nombre</label>
+                <input
+                  type="email"
+                  name="mail"
+                  placeholder="Tomasoderiz@gmail.com"
+                  required
+                />
+              </div>
+
+              <div class="contenedor2">
+                <label for="pass">password</label>
+                <input type="password" name="pass" required />
+              </div>
+
+              <div class="contenedor2">
+                <label for="nac">Elige tu pais</label>
+                <select name="nac" id="">
+                  <option value="Arg">Argentina</option>
+                  <option value="chile">chile</option>
+                  <option value="uru">Uruguay</option>
+                  <option value="Peru">Peru</option>
+                </select>
+              </div>
+
+              <div class="contenedor2">
+                <label for="sexo">Elige tu genero</label>
+                <input type="radio" name="sexo" value="muj" />Mujer
+                <input type="radio" name="sexo" value="hom" />Hombre
+              </div>
+
+              <div class="contenedor2">
+                <label for="comentarios">Dejanos tu consulta</label>
+              </div>
+              <div>
+                <textarea
+                  name="comentario"
+                  id="com"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="contenedor2">
+                <label for="terminos">Acepto terminos y condiciones</label>
+                <input type="checkbox" name="terminos" />
+              </div>
+
+              <div class="contenedor2">
+                <input type="submit" value="enviar datos" />
+              </div>
+            </form>
           </div>
-          <div class="Formulario2">
-            <main>
-              <form action="Formulario">
-                <legend>Contactate con nosotros</legend>
-                <div class="contenedor2">
-                  <label for="name">Nombre</label>
-                  <input type="text" name="name" placeholder="Tomas" required />
-                </div>
-
-                <div class="contenedor2">
-                  <label for="surname">apellido</label>
-                  <input
-                    type="text"
-                    name="surname"
-                    placeholder="Oderiz"
-                    required
-                  />
-                </div>
-
-                <div class="contenedor2">
-                  <label for="mail">Nombre</label>
-                  <input
-                    type="email"
-                    name="mail"
-                    placeholder="Tomasoderiz@gmail.com"
-                    required
-                  />
-                </div>
-
-                <div class="contenedor2">
-                  <label for="pass">password</label>
-                  <input type="password" name="pass" required />
-                </div>
-
-                <div class="contenedor2">
-                  <label for="nac">Elige tu pais</label>
-                  <select name="nac" id="">
-                    <option value="Arg">Argentina</option>
-                    <option value="chile">chile</option>
-                    <option value="uru">Uruguay</option>
-                    <option value="Peru">Peru</option>
-                  </select>
-                </div>
-
-                <div class="contenedor2">
-                  <label for="sexo">Elige tu genero</label>
-                  <input type="radio" name="sexo" value="muj" />Mujer
-                  <input type="radio" name="sexo" value="hom" />Hombre
-                </div>
-
-                <div class="contenedor2">
-                  <label for="comentarios">Dejanos tu consulta</label>
-                </div>
-                <div>
-                  <textarea
-                    name="comentario"
-                    id="com"
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                </div>
-
-                <div class="contenedor2">
-                  <label for="terminos">Acepto terminos y condiciones</label>
-                  <input type="checkbox" name="terminos" />
-                </div>
-
-                <div class="contenedor2">
-                  <input type="submit" value="enviar datos" />
-                </div>
-              </form>
-            </main>
-          </div>
-        </div>
+        </section>
+      </article>
+      <footer>
         <div class="listamarcas">
           <section class="listamarcas2">
             <ul>
@@ -222,8 +239,7 @@
             </ul>
           </section>
         </div>
-      </article>
-      <footer>
+
         <div class="contenedor">
           <div class="row">
             <div class="col-lg-2 col-sm-12">
